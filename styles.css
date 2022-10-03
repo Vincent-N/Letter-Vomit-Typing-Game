@@ -1,0 +1,146 @@
+/* Created by Vincent Nguyen */
+/* n.vincentq@gmail.com / vincentnguyen@utexas.edu */
+
+body {
+    background-color: gray;
+}
+
+.topNavBarContainer {
+    background-color: royalblue;
+}
+
+/* .topNavBarContainer {
+    background-color: pink;
+} */
+
+.topBarButtonContainer {
+    float: right;
+}
+
+#topNavBarTitle:hover {
+    background-color: gray;
+}
+
+.topNavBarButton {
+    padding: 1px 25px;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+   /* display: block; saw this is tutorial but it messes up layout in ours*/
+}
+
+.topNavBarButton:hover {
+    background-color: gray;
+}
+
+#topNavBarTitle {
+    padding: 1px 4px;
+    margin-left: 0px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+
+.typeDisplay {
+    margin: auto;
+    top: 3rem;
+    position: relative;
+    width: 60%;
+    /* border-color: 30px solid black; */
+    border: 3px solid black;
+    background-color: gainsboro;
+    /* padding-top: 10rem; */
+    /* padding-bottom: 10rem; */
+    height: 30rem;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+#typeDisplayBottom {
+    height: 3.75rem;
+    top: 5rem;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
+}
+
+#typeInputText {
+    background: transparent;
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 99%;
+    overflow-x: hidden;
+    resize: none;
+    overflow: hidden;
+    position: relative;
+    font-size: 4em;
+}
+
+#toType, #correctTyping, #errorTyping {
+    user-select: none;
+}
+
+#alreadyTyped {
+    color: royalblue;
+}
+
+#correctTyping {
+    color: rgba(65, 105, 225, 0.647)
+}
+
+#errorTyping {
+    color: red;
+}
+
+.typeLetters {
+    inline-size: min-content;
+    overflow-wrap: break-word;
+    font-size: 3em;
+    /* margin: 0em; */
+}
+
+/* .inprogres {
+    margin: 0;
+} */
+
+
+
+/* Storing old code for janky version control */
+/* 
+#bottomTyped {
+    font-size: 2rem;
+} */
+/* 
+let displayUntypedWordsList = untypedWordsList.slice();
+
+                let restOfWord = (displayUntypedWordsList.shift()).substring(lastIndex + 1);
+                displayUntypedWordsList.unshift(restOfWord);
+                
+                
+                // if (lastIndex + 1 == currentWordWithSpace.length) {
+                //     if (lettersWrong) {
+                //         errorTyping += " ";
+                //     } else {
+                //         correctTyping += " ";
+                //     }
+                // }
+
+                // userInputTextArea.value = "12";
+                correctTyping.innerHTML = correctLetters;
+                errorTyping.innerHTML = wrongLetters;
+
+                let displayUntypedWords = displayUntypedWordsList.join(" ");
+                if (lastIndex + 1 == (untypedWordsList[0]).length) {
+                    displayUntypedWords = "&#8202" + displayUntypedWords
+                }
+
+                toType.innerHTML = displayUntypedWords;
+                // toType.innerHTML = displayUntypedWordsList.join(" "); */
+
+
+
+
+
+/* Created by Vincent Nguyen */
+/* n.vincentq@gmail.com / vincentnguyen@utexas.edu */
