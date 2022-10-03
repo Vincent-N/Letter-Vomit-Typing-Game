@@ -16,8 +16,9 @@ PLAN TO:
 - Add words per minute and characters per limit tracker
 - Fix formatting when you're typing at the start of a line
 - Make starting/restarting the game more interactive
+- Host on website (for now, you'll need to download all the files and open the index.html file to play)
 
 Thanks for reading!
 
-- Vincent Nguyen
+--- Vincent Nguyen
 
